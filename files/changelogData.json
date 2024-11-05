@@ -1,0 +1,751 @@
+[
+  {
+    "timestamp": 1729209600000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": [
+          "Added JDBC Connector to enable database queries via JDBC protocol with drivers available for IBM DB2, Presto, Trino, and more."
+        ]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Enhancement done to add a hyperlink in connection string field description of a connector.",
+          "Enhanced the Builder UI, with revamp in Header, Footer and Sidebars.",
+          "Enhanced tag configuration functionality."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed the app crash caused by the Connector Library. The test button used to load endlessly and crash the app.",
+          "Fixed missing code for package 'When to Execute' condition.",
+          "Fixed incomplete content rendering in PDF common headers.",
+          "Fixed issue where 'Data Query' saved with a time-interval configuration did not display interval input on reopening.",
+          "Fixed icon for import API option.",
+          "Fixed missing tab index for Advanced Dropdown.",
+          "Fixed file upload control reference issue in data query within Action Flow.",
+          "Fixed issue where 'Save' was not triggered when changes were made in headers.",
+          "Fixed the manual tags by adding rearrangement functionality.",
+          "Fixed an issue where schema table incorrectly displayed an expand arrow for Firebase and Firestore.",
+          "Fixed Incomplete content rendered for pdf in common headers.",
+          "Fixed automatic saving of header names upon edit.",
+          "Fixed multistep authentication issue with SAML-based SSO."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1728950400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed issue for the new app KEYWORDS.DATAENV is undefined.",
+          "Fixed suggestions for JavaScript when returns array of object.",
+          "Fixes in Rules and validation CSS",
+          "Fixed the issue with data-query block in the branch not deleting the main variable while deletion."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1727395200000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": ["Fixed an issue with JS data query not providing correct suggestions."]
+      }
+    ]
+  },
+  {
+    "timestamp": 1727308800000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": [
+          "Added a configuration in Oracle connector which allows users to configure secure connections (mTLS) using wallet key and wallet password.",
+          "Added version 1.0 & version 2.0 in oracle connector which will allow connection to database either via connection string or user can separately provide fields such as host, port, database name.",
+          "Added a configuration in Oracle connector which allows database name to be interpreted as SID."
+        ]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Enhanced Actionflow to set Data Query to manual on creation.",
+          "Enhanced Screen ID functionality to allow changes."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed inconsistent behavior in kvstore actions in web view.",
+          "Fixed an issue where users were unable to select an image from file storage in the collapsible menu control.",
+          "Fixed an issue where the info popup was not visible when clicking the info icon.",
+          "Fixed minor UI issues in the new property section.",
+          "Fixed an issue with connector version dropdown which was not changing fields while switching to secret manager tab.",
+          "Fixed a bug in the ActionFlow popup UI related to the multi-select dropdown.",
+          "Fixed an issue where the last metric control inside the grid panel appeared slightly larger than the others.",
+          "Fixed the missing code related to data query used under - when to execute condition."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1726790400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Enhanced Actionflow to provide output suggestions created in older versions of Actionblock, making them available in newer versions."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed UI-related issues while creating apps using DronaHQ AI.",
+          "Fixed an issue where data queries were triggered multiple times in some edge cases.",
+          "Fixed an issue where the push notification action block was not visible in the New Actionflow UI.",
+          "Fixed a UI issue where the validation option for Composite control inside Rules & Validations was not showing correctly for the UI and JS tabs.",
+          "Fixed a UI issue in the query builder where the environment text was positioned upside down."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1726704000000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": ["Added PDF Common Headers & Footers."]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Enhanced the property settings for popup and tray-type pages with the addition of an 'Enable Overflow' option, allowing content to extend beyond default boundaries when necessary.",
+          "Enhanced the functionality to dynamically update the URL based on the environment selected in the dropdown, along with code optimization.",
+          "Enhanced support by adding suggestion and binding capabilities for data queries that output JSON.",
+          "Enhanced GraphQL by moving multistep auth refresh flow handling inside the success callback.",
+          "Enhanced server-side pagination for database connectors."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed schema rendering for SQL queries to avoid longer load times and prevent schema fetch failures due to large response sizes.",
+          "Fixed DataQuery & ActionFlow breaking when using File Upload Control.",
+          "Fixed an issue with adding multistep Auth values for GraphQL in the query sidebar.",
+          "Fixed a loader edge case for importing Actionflow.",
+          "Fixed an issue where the form setup schema was not scrollable during the first-time setup.",
+          "Fixed various UI-level bugs in DataQuery.",
+          "Fixed an issue where deleting a non-active tab in Data Queries would not remove it or update the edited state count.",
+          "Fixed an issue where RestAPI body configuration was incorrectly sent via the 'GET' method without displaying a 'PROXY' info message.",
+          "Fixed an issue with editing app names in the Edit App sidebar for widgets and Forms.",
+          "Fixed an issue where the Autogen CRUD operation select was not working for MSSQL connectors.",
+          "Fixed syntax error in fetching schema for Postgres.",
+          "Fixed an issue where the Action block did not wait for task completion.",
+          "Fixed a bug in DataQuery where test value rendering for SQL Connector Queries was incorrect.",
+          "Fixed bug where batches added during lazy loading didn't expand properly in server-side pagination.",
+          "Fixed removed 'Edit Name' option for Widgets.",
+          "Fixed an issue in Add Query where the endpoint was not populating for GraphQL queries."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1726185600000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": ["Fixed an issue with GraphQL multistep authentication."]
+      }
+    ]
+  },
+  {
+    "timestamp": 1726099200000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed issue related to action block not waiting till completion of an block and also success branch was not being executed.",
+          "Fixed issue related to file upload control breaking in DQ and Actionflow in packaged apps."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1725494400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": ["Added support for creating new apps using DronaHQ-AI by providing prompts."]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Enhanced the Datadog logger in Audit Logging to input specific region base URLs.",
+          "Enhanced DataQuery: Rest API & Connector Query to have a default 'Time-Out' value of 5000ms.",
+          "Enhanced the UI for app listing to include a dashboard, updated folder icons, and updated tag colors.",
+          "Enhanced the property section experience."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed an issue in the PDF creator task in Actionflow to display the correct tag.",
+          " Fixed an issue in the 'Use Keywords' dropdown in Actionflow where Connector Query output variables were not visible under the Action Output section.",
+          " Fixed help text for searching Actionflow blocks.",
+          " Fixed an issue with extra horizontal scrolling in Actionflow when adding tasks in some cases.",
+          " Fixed a UI issue where lines connecting Actionflow tasks would disappear when any popup was shown while adding a task in Actionflow.",
+          "Fixed an issue where Data Queries created using Autogen were not showing the editable state correctly.",
+          "Fixed a UI issue in the Connector Query sidebar where the environment text was positioned upside down.",
+          "Fixed an issue with the 'When to Execute' condition in Data Queries.",
+          "Fixed an issue related to uploading files in Managed Storage from Data Queries or Actionflow.",
+          "Fixed an issue where importing an Actionflow used the same Data Query instead of creating a duplicate.",
+          "Fixed an issue where Data Queries created from an Action block were getting triggered on app load or screen reset.",
+          "Fixed an issue where the preview button was disabled when using DronaHQ Database in a Connector Query.",
+          "Fixed a UI issue in Actionflow where the plus icon of the branch was appearing above the 'Add Action' popup.",
+          "Fixed an issue in storing dynamic variables for corresponding account environments in REST API connectors.",
+          "Fixed an issue where REST API in Data Queries was showing a note of Body Configuration present for GET requests even if no Body was configured.",
+          "Fixed an issue where modifying a Connector Query in Actionflow and minimizing it without saving caused changes to be lost.",
+          "Fixed an issue where older actions configured in the previous Actionflow update were not opening.",
+          "Fixed an issue where Quick Select items were visible in 'Bind Data' for Forms.",
+          "Fixed an issue when searching for apps in folders.",
+          "Fixed issues related to the new UI listing for apps and connectors.",
+          "Fixed MySQL query syntax for Autogen forms.",
+          "Fixed minor issues in Data Queries.",
+          "Fixed an issue where dynamic table rows in PDFs were breaking into multiple pages when overflowing."
+        ]
+      },
+      {
+        "title": "Removed",
+        "type": "removed",
+        "points": ["Deprecated Compute and Create dynamic text action blocks"]
+      }
+    ]
+  },
+  {
+    "timestamp": 1724803200000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": ["Added support to manually edit Control’s Unique Name"]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Improved Concurrent App access behavior to handle the same logged-in user editing apps on multiple devices."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed an issue when sending Test message for corresponding logger in Audit logs",
+          "Fixed an issue where Prepared statement queries for MSSql connector were not sent correctly when configured in data query.",
+          "Fixed an issue where Dynamic collection option is not visible for MongoDB Connector",
+          "Fixed an issue where footer was getting hidden on navigating back to current screen",
+          "Fixed an issue when swapping Controls",
+          "Fixed an issue with edit state not showing up when editing Rest Api type of Data Query",
+          "Fixed an issue in Data Query tabs where changing Data query name, corresponding Tab name was not changed.",
+          "Fixed an issue where ACTIVESCREEN keyword was giving incorrect value on Screen navigation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1723766400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "Build Standalone Forms with DronaHQ",
+    "descriptions": [
+      "<div style=\"position: relative; padding-bottom: calc(46.33333333333333% + 41px); height: 0;\"><iframe src=\"https://demo.arcade.software/DrEDlmOHMJ8hRzcFqhgj?embed\" title=\"DronaHQ Dashboard\" frameBorder=\"0\" loading=\"lazy\" allowFullScreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;\" webkitallowfullscreen mozallowfullscreen></iframe></div>",
+      "DronaHQ introduces a robust Forms feature that lets you create standalone, customizable forms and record responses directly into your connected SQL databases like MySQL, PostgreSQL, and more. These forms are publicly accessible via a unique URL, making it easy to gather responses.",
+      "Key features include:",
+      "<b>Effortless Form Creation:</b> Start by navigating to the Create tab, where selecting 'Form' automatically generates a new form in a separate tab.<br></br><b>Database Integration:</b> Direct form responses to your existing SQL database by connecting it as a Connector within DronaHQ.",
+      "<b>Custom Field Synchronization:</b> Add custom fields while building your form, and they will be automatically synchronized with your DronaHQ Database upon publishing.",
+      "<b>Visual Customization:</b> Enhance your forms with text, images, and dividers, and customize controls with options like hide, required, or swap before publishing.",
+      "<b>Post-Submission Actions:</b> Set up additional actions such as sending emails or Slack notifications that trigger upon form submission.",
+      "<b>Response Management:</b> Access all form responses in the Responses tab, with the ability to download them as CSV files for further analysis.",
+      "<b>Preview, Publish, and Share:</b> Before making your form public, preview it, then publish to receive a unique URL. You can also embed the form on your website.",
+      "This update empowers you to create and manage forms efficiently, ensuring seamless data collection and integration. For more details, visit our <a href='https://docs.dronahq.com/forms/'>DronaHQ Forms Documentation</a>."
+    ]
+  },
+  {
+    "timestamp": 1723766400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": [
+          "Added PDF Creator option in Data Queries. It Allows you to generate a PDF by selecting a published PDF template. You can enter a name for the PDF, add a password to protect it, and also pass dynamic data from your controls or other data queries into the populated variable list. The variable list is refreshed once you select a PDF template from the templates dropdown. ",
+          "Added an option to declare css variables while configuring Theme with some suffix defined by DronaHQ which will help to identify the the css variable and make it available for selection in there respective sidebars. <a href='https://docs.dronahq.com/building-apps-concepts/configuring-themes/#custom-theme'>Read More</a>",
+          "Added tabs to let you edit multiple data queries parallelly.",
+          "Added option to switch between multiple data queries without saving."
+        ]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Added option to switch between multiple data queries without saving.",
+          "Enhanced homescreen for apps, connectors and other sections with listing view introduced.",
+          "Enhanced the experience in Action Flow with the following updates: </br><span>&#8226;</span> All actionblocks except connectors and JS now open in a pop up instead of a tray.</br><span>&#8226;</span> Connectors and JS actionblocks now open in a bottom panel similar to data queries.</br><span>&#8226;</span> Older configured actionblocks like JSCODE that emit a output has to be used with trigger data query or new JS block should be added for further use.",
+          "Enhanced Themes to include fonts and loaders to be set up at the account level in themes."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed an issue where user email mismatched in the {{USEREMAIL}} keyword.",
+          "Fixed continuous loader issue on saving a Connector Library.",
+          "Fixed an issue where dropdowns in control properties stopped working in some Chrome versions."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1723593600000,
+    "tags": "Dashboard",
+    "heading": "DronaHQ Dynamic - Dashboards",
+    "descriptions": [
+      "<div style=\"position: relative; padding-bottom: calc(46.33333333333333% + 41px); height: 0;\"><iframe src=\"https://demo.arcade.software/RgbpxLKt1R9hPq8cBnTW?embed\" title=\"DronaHQ Dashboard\" frameBorder=\"0\" loading=\"lazy\" allowFullScreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;\" webkitallowfullscreen mozallowfullscreen></iframe></div>",
+      "DronaHQ now offers a powerful and user-friendly Dashboard feature, designed to streamline data visualization and business intelligence tasks. With this update, users can create dynamic, customizable dashboards that enable in-depth data exploration, advanced analytics, and collaborative insights.",
+      "Key enhancements include:",
+      "<b>Home Screen Overview:</b> Quickly access recently edited items, dashboards, charts, datasets, and connectors through an intuitive navigation menu.<br></br><b>Dashboard Management:</b> Create, navigate, and manage your dashboards efficiently, ensuring an organized workspace.",
+      "<b>Chart Builder:</b> Visualize your data with ease using a wide range of chart options and low-code design capabilities.",
+      "<b>SQL Labs:</b> A dedicated environment for creating, testing, and managing SQL queries, with support for saving and organizing queries.",
+      "These improvements empower users to leverage data-driven insights, drive business growth, and maintain a secure, organized data environment.",
+      "For more information, visit our <a href='https://docs.dronahq.com/getting-started/introduction/'>DronaHQ Documentation</a>."
+    ]
+  },
+  {
+    "timestamp": 1723161600000,
+    "tags": ["Cloud-Hosted", "Connectors"],
+    "heading": "Connector Updates",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": [
+          "Introduced JSON Tree for Schema Display: A JSON tree structure is now available to display the schema of connectors with multi-level hierarchy, making it easier to navigate complex schemas."
+        ]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Improved Exception Handling in Schema Block: Exceptions in the schema block now include an 'Ask AI' option for the query editor, offering additional assistance.",
+          "MongoDB Schema Listing Enhancement: In addition to collections, keys are now also listed in the schema, providing more comprehensive insights into your MongoDB structure."
+        ]
+      },
+      {
+        "title": "Removed",
+        "type": "removed",
+        "points": [
+          "Deprecated Fx option in data binding - Backward compatible if this option is already used in any control.",
+          "Deprecated SQL option in data binding - Backward compatible if this option is already used in any control."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1723161600000,
+    "tags": ["Cloud-Hosted", "Data Queries"],
+    "heading": "Data Queries",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": [
+          "Added a Error State Indicator. Now, if a data query is saved with an error, it will be highlighted in red within the listing, helping you quickly spot and resolve issues.",
+          "Added Visual Indicators for Editable State: When you start editing a data query, a green dot will appear along with a count indicator on the left menu, making it easier to keep track of active edits.",
+          "Added tabs to let you edit multiple data queries parallelly."
+        ]
+      },
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "Enhanced Data Type Visibility in Test Values: You can now see the exact data type of your dynamic variables that will be sent to the destination connector. This update makes it easier to identify issues and apply parse methods for the correct data type. (For example, data types like {{NULL}} are now more prominently displayed.)"
+        ]
+      },
+      {
+        "title": "Fixes",
+        "type": "fixed",
+        "points": [
+          "Fixed an issue where {{NULL}} in data queries which when triggered using actionblocks was sent stringified. Similarly other data types have also been covered in this fix.",
+          "Fixed an issue where JS expressions were not getting evaluated when the data query was triggered using action blocks.",
+          "Fixed discrepancies in the Request payload formation of Test and Save in the data queries.",
+          "Fixed an issue in MSSQL connector where prepared statement queries are not working via connector query."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1719532800000,
+    "tags": ["Cloud-Hosted", "Actions"],
+    "heading": "Clear Multistep Auth Credentials",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "descriptions": [
+          "A new action to clear your connector's multistep credential(s) from the system on trigger of an event.",
+          "<img src='/img/reference/actionflow-blocks/clear-credentials/clear-credentials.png' alt='Cursor Pagination Toggle' width='70%'>",
+          "<a href='/reference/actionflow-blocks/clear-multistep-auth-credentials/'>Read more about it.</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1719532800000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "Security Manager",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>Secret manager - Hashicorp Vault: </b> We have now added two more attributes to connect to the vault one is Approle mount and one is toggle to connect via TLS."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1719532800000,
+    "tags": ["Cloud-Hosted", "Automation"],
+    "heading": "Automation Features and UI",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>Connector Usage Permission: </b> We have now implemented a restriction system where users can only access connectors for which they have explicit permissions. This adheres to the connector permission guidelines.",
+          "<b>Automation Export/Import Revamp: </b> When importing automation, any APIs or queries that are not already present in the channel will be automatically added, similar to the app import process.",
+          "<b>Enhanced UI: </b> The user interface has been improved to allow drag-and-drop functionality for importing JSON files."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1717200000000,
+    "tags": ["Cloud-Hosted", "Database"],
+    "heading": "Database Connector",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>Command action for MongoDB: </b> Command action is available for MongoDB to execute raw commands using extended JSON.",
+          "<b>createCustomToken action in FirebaseAuth: </b> createCustomToken action is added to FirebaseAuth.",
+          "<b>SSH Tunneling Flexibility: </b> Flexibility to use existing SSH user while SSH tunneling is now available. (Previously, user needed to create an SSH user named dronahq)",
+          "<b>Informative MongoDB Exception Messages: </b> For MongoDB queries, more informative messages are shown in case of exceptions."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1718409600000,
+    "tags": ["Cloud-Hosted", "Database"],
+    "heading": "Cursor Based Pagination",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "descriptions": [
+          "We've added a new feature: a toggle for cursor-based pagination, which ensures smooth and efficient data retrieval. It uses cursor keys for pagination, ideal for managing large and complex datasets.",
+          "<img src='/img/building-apps-guides/cursor-pagination/cursor.jpeg' alt='Cursor Pagination Toggle' width='70%'>",
+          "<a href='/building-apps-guides/connector-lib-cursor-pagination/'>Read more about implementing cursor-based pagination in connector.</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1715711400000,
+    "tags": ["Cloud-Hosted", "Database"],
+    "heading": "Database Connector",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>TDS 8.0 Support for MSSQL Connector: </b> The MSSQL connector now supports TDS 8.0 version, enhancing compatibility and performance for SQL Server integrations.",
+          "<b>Improved SQL Database Handling: </b> When prepared statement configuration is enabled, dynamic variables no longer require wrapping inside quotes, simplifying SQL query execution.",
+          "<b>Firebase Wrapper Service : Firebase Connector: </b> A new Firebase wrapper service has been introduced, consolidating Firebase services such as Firebase Auth (User Management), Firebase Realtime Database, and Firestore under DronaHQ."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1714501800000,
+    "tags": ["Cloud-Hosted", "Controls"],
+    "heading": "Zebra Barcode Scanner",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "descriptions": [
+          "The Zebra Barcode Scanner control is designed to facilitate barcode scanning using Zebra devices. It integrates with data entry forms, allowing users to scan and input barcode data directly into specified fields.",
+          "<img src=\"/img/reference/controls/zebra-barcode-scanner/preview.jpeg\" alt=\"Zebra Scanner\"/ width=\"70%\">",
+          "<a href='/reference/controls/zebra-barcode-scanner/'>Read more about it. </a>"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1711305000000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "SSH Key - IMPORT",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "descriptions": [
+          "<img src=\"/img/advanced-concepts/connecting-via-ssh-keys/import-key.png\" alt=\"insect-bee\"/ width=\"100%\">",
+          "Now you also have the option to add an existing SSH key from your system. Simply toggle the Import Key option and choose a `.pem` file from the system."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1710460800000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "Razorpay Endpoints",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>List All Plans: </b> View all available plans for subscription.",
+          "<b>Create Subscription Link: </b> Generate a subscription link to sign up for a plan."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1709251200000,
+    "tags": ["Cloud-Hosted", "Automations"],
+    "heading": "Enhancements for Task Output and Visualization",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>Enhanced Task Output Dropdown: </b> Now, in the task output dropdown for REST API connections, you can view response headers alongside the output. This enhancement provides more comprehensive information for debugging and analysis.",
+          "<b>Improved Individual Task Run Display: </b> Individual task responses now include not only the output but also the response headers. This addition facilitates better debugging by providing more context and details.",
+          "<b>JSON Tree Integration in Raw Output View: </b> In the raw output view of individual task runs, a new tab has been introduced for JSON Tree visualization. This UI enhancement offers a more user-friendly way to visualize the raw request, response, and output, improving the overall user experience."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1707523200000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "Database Connectivity Features",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b> Database Reachability Analysis: </b> Gain insights into your database's accessibility by providing the host URL or host port via the whitelisting IP toggle.",
+          "<b>Case Insensitive Name Search: </b>Bid farewell to case sensitivity! Searches for connector database names are now case insensitive, offering a smoother and more intuitive user experience.",
+          "<b>Schema-independent Database Connection Testing: </b>Testing connections to your database is now schema-independent, ensuring a diverse range of connection checks. This enhancement allows for a basic level validation of database permissions, providing comprehensive testing capabilities.",
+          "<b>Optimized Schema listing: </b> Enjoy a refined query building experience! The query builder now loads instantly, providing immediate access to crafting your queries. Additionally, the schema segment dynamically loads all available schemas, ensuring a hassle-free browsing experience even with a large number of schemas. Simply scroll through the schema window, and your schemas will continue to load effortlessly.",
+          "<b>Support for AlloyDB via Postgres Connector: </b>Seamlessly connect to AlloyDB using the Postgres connector, with added support for SSH tunneling. "
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1705708800000,
+    "tags": ["Cloud-Hosted", "Beta"],
+    "heading": "File Storage",
+    "descriptions": [
+      "<div style=\"position: relative; padding-bottom: 56.25%; height: 0; width: 100%;\"><iframe src=\"https://demo.arcade.software/E0Uc0lZONX57s8WmnmaM?embed\" loading=\"lazy\" webkitallowfullscreen mozallowfullscreen allowfullscreen allow=\"clipboard-write\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;color-scheme: light;\"></iframe></div>",
+      "Discover seamless file management with our new service, powered by AWS S3. Use our intuitive explorer and dedicated connector for effortless file handling. Cloud users can find it in the DronaHQ Managed section. Don't miss out—activate your free trial for 1 GB storage today! <a href='/file-storage/overview/'>Read more about it. </a>"
+    ]
+  },
+  {
+    "timestamp": 1704844800000,
+    "tags": ["Cloud-Hosted", "Automations"],
+    "heading": "REST API | DronaHQ DB",
+    "cards": [
+      {
+        "title": "Added",
+        "type": "added",
+        "points": [
+          "<b>Automation - REST API :</b> Discover effortless integration with external systems, web services, and APIs through our new Automation Block, REST API. Simplify data exchange, trigger actions, and seamlessly integrate with online platforms. <a href='/reference/automation-blocks/rest-api/' target='_blank'> Read more about it.</a>",
+          "<b>Automation - DronaHQ DB :</b> Explore DronaHQ DB for robust data management in BPM Flows. Efficient storage, retrieval, and manipulation. Enhance workflow precision. <a href='/reference/automation-blocks/dronahqdb/' target='_blank'>Read more about it.</a>."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1704844800000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "DronaHQ Theme",
+
+    "descriptions": [
+      "<div style=\"position: relative; padding-bottom: 56.25%; height: 0; width: 100%;\"><iframe src=\"https://demo.arcade.software/SjFZuYRtHBe3oAbLLyZR?embed\" loading=\"lazy\" webkitallowfullscreen mozallowfullscreen allowfullscreen allow=\"clipboard-write\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;color-scheme: light;\"></iframe></div>",
+      "Start customizing themes effortlessly with our intuitive interface. Choose from default light/dark options or unleash creativity with custom <a href='/building-apps-concepts/configuring-themes/#applying-themes' target='_blank'>themes</a>.",
+      "Craft visual masterpieces that reflect your unique style and brand identity with ease.",
+      "Each application gets its own theme playground, allowing you to fine-tune the visual presentation to your heart's content.",
+      "Want to switch up the vibe on the fly? Our dynamic theme modification feature lets you do just that, even after your app is live. Say goodbye to static visuals and hello to endless flexibility!"
+    ]
+  },
+  {
+    "timestamp": 1704844800000,
+    "tags": ["Cloud-Hosted", "Automations"],
+    "heading": "REST API",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<a href='/reference/automation-blocks/connector/#connector-query---tailored-queries'  target='_blank'>Connector Query – Tailored Queries </a>: Take control of your data retrieval and manipulation with custom queries tailored to your exact specifications.",
+          "<a href='/reference/automation-blocks/connector/#connector-library---reusable-queries'  target='_blank'>Connector Library – Reusable Queries </a>: Save time and streamline your integration process by accessing pre-existing queries within the library. With a range of connectors and preadded queries at your fingertips, integration has never been easier."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1703030400000,
+    "tags": ["Cloud-Hosted", "Beta"],
+    "heading": "DronaHQ Managed DB",
+
+    "descriptions": [
+      "<div style=\"position: relative; padding-bottom: 56.25%; height: 0; width: 100%;\"><iframe src=\"https://demo.arcade.software/B1S3Tb2n8Jqd4OCTKMWP?embed\" loading=\"lazy\" webkitallowfullscreen mozallowfullscreen allowfullscreen allow=\"clipboard-write\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;color-scheme: light;\"></iframe></div>",
+      "Prepare for the revolution! Introducing DronaHQ DB, a marvel in managed PostgreSQL platforms. Imagine a world where managing data feels as intuitive as handling spreadsheets, within your very apps! It’s tailored for efficiency, empowered by SQL queries, and wrapped in a user-friendly interface, ensuring seamless data handling. Learn more about <a href='/dronahq-database/dhq-database-overview/' target='_blank'>DronaHQ Database.</a>"
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted", "Actions"],
+    "heading": "Show Control Loader",
+
+    "descriptions": [
+      "<img src=\"/img/reference/actionflow-blocks/show-control-loader/showcontrolloader.jpg\" alt=\"insect-bee\"/ width=\"100%\">",
+      "Enhance user interaction in micro-applications with the Show Control Loader action, enabling the integration of dynamic loading indicators and spinners. This feature ensures smoother navigation and active user engagement by providing real-time feedback during ongoing processes. Dive deeper into its technical capabilities <a href='/reference/actionflow-blocks/show-control-loader/' target = '_blank'>here</a> to optimize your application's user experience."
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted", "Actions"],
+    "heading": "Hide Screen Loader",
+    "embed": "",
+
+    "descriptions": [
+      "<img src=\"/img/reference/actionflow-blocks/hide-control-loader/hidecontrolloader.jpg\" alt=\"insect-bee\"/ width=\"100%\">",
+      "It effortlessly conceals loading indicators within micro-apps, ensuring a polished interface. With processes completed, watch these loading states gracefully fade away, elevating your application's sophistication. Explore its capabilities <a href='/reference/actionflow-blocks/hide-screen-loader/' target='_blank'>here</a>."
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "Data Query - REST API",
+
+    "descriptions": [
+      "<img src=\"/img/data-queries/restapi-dataquery.jpeg\" alt=\"insect-bee\"/ width=\"100%\">",
+      "Embark on a journey of enhanced connectivity with the <a href='/binding-data/data-queries/http-requests-curl/' target='_blank'>Rest API in Data Query </a>, delving into a myriad of possibilities. Leveraging basic authentication, seamlessly interface with public APIs, accessing diverse data sets such as weather updates, dummy data, or IP-based information. Additionally, utilize the proxy toggle feature to adeptly manage CORS issues."
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted"],
+    "heading": "DronaHQ Optimizations",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "points": [
+          "<b>App Builder and Landing Page Load Time :</b> We’ve turbocharged your experience! The DronaHQ App Builder is now armed with caching algorithms, slashing network stress and backend API load. Say goodbye to lag and hello to lightning-fast load times!",
+          "<b>Save API Optimization: </b> Speed, precision, efficiency - amplified! Our enhancements to the app save API make building applications a breeze. Get ready for save times that scale with your app’s size, delivering a staggering 10% - 70% boost in efficiency."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted"],
+    "embed": "",
+    "heading": "Audit Logging 2.0",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "descriptions": [
+          "<img src=\"/img/audit-logger/audit-logging.png\" alt=\"insect-bee\"/ width=\"100%\">",
+          "Trace every step, celebrate every event! Our configurable audit logs are now at your fingertips, seamlessly accessible in databases or chosen audit logging tools. For a deeper dive, check out our <a href='/audit-logger/overview/' target='_blank'>Detailed article</a> encompassing log formats, events, and more."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted", "Connectors"],
+    "heading": "Whitelist IP - Check Reachability",
+    "cards": [
+      {
+        "title": "Enhancements",
+        "type": "improved",
+        "descriptions": [
+          "Empower your systems! Ensure IP reachability with our seamless functionality, fortifying your network’s security and accessibility."
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 1702166400000,
+    "tags": ["Cloud-Hosted", "Connectors"],
+    "heading": "SurrealDB",
+
+    "descriptions": [
+      "<img src=\"/img/reference/connectors/surrealdb/details.jpeg\" alt=\"insect-bee\"/ width=\"60%\" height=\"10%\">",
+      "Welcome to the future of data handling! <a href='/reference/connectors/surrealdb/' target='_blank'> SurrealDB </a> stands tall as a cutting-edge distributed NoSQL database system. It’s not just a database; it’s an ecosystem engineered for unparalleled scalability, high availability, and unwavering fault tolerance across diverse data workloads."
+    ]
+  }
+]
